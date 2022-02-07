@@ -1,3 +1,6 @@
+/* Arrays
+*/
+
 /* Tuck in Array
 Create a function that takes two arrays and insert the second array in the middle of the first array.
 
