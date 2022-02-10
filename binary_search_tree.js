@@ -1,6 +1,6 @@
 /* BINARY SEARCH TREE */
 
-class Node {
+/* class Node {
   constructor(data, left=null, right=null) {
     this.data = data;
     this.left = left;
@@ -129,4 +129,4 @@ bst.add(7);
 bst.add(8);
 bst.remove(8);
 console.log(bst.findMin());
-console.log(bst.findMax());
+console.log(bst.findMax()); */
