@@ -1,4 +1,4 @@
-/** 
+/**1. 
   Challenge: Display `JSX is cool!` as an output
   
   Solution: https://codepen.io/angelo_jin/pen/xxXrZLd
@@ -16,7 +16,7 @@ ReactDOM.render(<App />, document.getElementById("root"));
 
 console.log(App()) */
 
-/**
+/**2.
   Challenge: Display all users to the browser
   Small Hint: Use array map with react key
   
@@ -42,7 +42,7 @@ function App() {
 
 ReactDOM.render(<App />, document.getElementById("root")); */
 
-/**
+/**3.
   Challenge: Make the button functional
   A click on button should toggle (show/hide) the string `Toggle Challenge` each time it is pressed
   
@@ -65,7 +65,7 @@ ReactDOM.render(<App />, document.getElementById("root")); */
 
 /* ReactDOM.render(<App />, document.getElementById("root")); */
 
-/* two way dat binding */
+/* 4. two way dat binding */
 
 /* function App() {
   const [value, setValue] = React.useState("");
@@ -79,6 +79,27 @@ ReactDOM.render(<App />, document.getElementById("root")); */
         onChange={(e) => setValue(e.target.value)}
       />
       <p>{value}</p>
+    </>
+  );
+}
+
+ReactDOM.render(<App />, document.getElementById("root")); */
+
+/*5. disable button */
+/**
+  Challenge: Make button disabled when there is no character on the input field. Enable the `Submit` button (remove button from being disabled) when there is at least one character.
+  
+  Solution: https://codepen.io/angelo_jin/pen/dyVmyYz
+  Video for reference: https://youtu.be/VzNNjNmbXpY
+**/
+/* function App() {
+  const [value, setValue] = React.useState("");
+
+  return (
+    <>
+      <h3>Disable Button Challenge</h3>
+      <input type="text" onChange={(e) => setValue(e.target.value)}/>
+      <button disabled={value.length < 1}>Submit</button>
     </>
   );
 }
