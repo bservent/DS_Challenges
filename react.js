@@ -63,5 +63,24 @@ ReactDOM.render(<App />, document.getElementById("root")); */
   );
 } */
 
-ReactDOM.render(<App />, document.getElementById("root"));
+/* ReactDOM.render(<App />, document.getElementById("root")); */
 
+/* two way dat binding */
+
+/* function App() {
+  const [value, setValue] = React.useState("");
+
+  return (
+    <>
+      <input
+        type="text"
+        placeholder="Enter Text"
+        value={value}
+        onChange={(e) => setValue(e.target.value)}
+      />
+      <p>{value}</p>
+    </>
+  );
+}
+
+ReactDOM.render(<App />, document.getElementById("root")); */
