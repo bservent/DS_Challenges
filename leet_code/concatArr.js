@@ -42,7 +42,7 @@ n == nums.length
  * @param {number[]} nums
  * @return {number[]}
  */
- var getConcatenation = function(nums) {
+/*  var getConcatenation = function(nums) {
    let ans = [];
     for(num of nums) {
       ans.push(num)
@@ -50,4 +50,5 @@ n == nums.length
     return ans.concat(nums)
 };
 
-console.log(getConcatenation([1,3,4]))
+console.log(getConcatenation([1,3,4])) */
+
