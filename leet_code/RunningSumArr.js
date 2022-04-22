@@ -39,7 +39,7 @@ Constraints:
  * @param {number[]} arr
  * @return {number[]}
  */
- var runningSum = function(arr) {
+/*  var runningSum = function(arr) {
   let result = [];
   let sum = 0;
   for(let i = 0; i < arr.length; i++) {
@@ -47,6 +47,6 @@ Constraints:
       result.push(sum)
   }
   return result
-};
+}; */
 
 console.log(runningSum([1,2,5,6]))
